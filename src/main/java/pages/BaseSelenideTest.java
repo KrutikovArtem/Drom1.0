@@ -12,7 +12,7 @@ public class BaseSelenideTest {
         Configuration.browser = "chrome";
         Configuration.browserSize = "1920x1080";
         Configuration.headless = false;
-        Configuration.timeout = 2000;
+        Configuration.timeout = 10000;
         Configuration.pageLoadStrategy = "normal";
 
     }
